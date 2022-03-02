@@ -1,0 +1,25 @@
+{
+  "name": "gibberish-generator",
+  "version": "0.0.1",
+  "description": "Gibberish generator that create random strings with random widths.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/COANelmejor/gibberish-generator.git"
+  },
+  "keywords": [
+    "giberish",
+    "generator",
+    "lorem",
+    "ipsum"
+  ],
+  "author": "COANelmejor <coanemejor@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/COANelmejor/gibberish-generator/issues"
+  },
+  "homepage": "https://github.com/COANelmejor/gibberish-generator#readme"
+}
