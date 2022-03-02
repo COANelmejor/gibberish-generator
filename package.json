@@ -4,7 +4,7 @@
   "description": "Gibberish generator that create random strings with random widths.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test.js ./tests/core-test.js"
   },
   "repository": {
     "type": "git",
