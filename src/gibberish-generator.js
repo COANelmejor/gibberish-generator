@@ -7,7 +7,7 @@ module.exports = function (args) {
     const WORDMAXLENGTH = args?.wordMaxLength || args?.wordMinLength || 8; // Number of letters per word
 
 
-
+    // TODO: Create a more optimized generator
     const gibberish = [];
     for (let i = 0; i < PARAGRAPHS; i++) {
         const paragraph = [];
