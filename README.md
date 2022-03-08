@@ -42,11 +42,15 @@ console.log(textCustom);
 
 ## Options
 
+Gibeberish generator has several options to customize the output.
+
+This options are passed as an object to the function.
+
 | Name | Type | Description | Default |
 | :--- | :--: | :---------- | :-----: |
-| paragraphs | number | Number of paragraphs | 1 |
-| letters | string | Letters to use | abcdefghijklmnopqrstuvwxyz |
+| paragraphs | number | Number of paragraphs to serve. | 1 |
+| letters | string | Letters to use in the generation | abcdefghijklmnopqrstuvwxyz |
 | separator | string | Separator between words | ' ' |
-| paragraphLength | number | Length of the paragraph | 100 |
-| wordMinLength | number | Minimum length of a word | 4 |
+| paragraphLength | number | Length of the paragraph. Include separators. | 100 |
+| wordMinLength | number | Minimum length of a word.| 4 |
 | wordMaxLength | number | Maximum length of a word.<br>If `wordMinLength` is declared, `wordMaxLength` value will be `wordMinLength` | 10 |
